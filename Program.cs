@@ -5,6 +5,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine("Day 01 Solutions:\n");
         _ = new Day01();
     }
 }

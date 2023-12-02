@@ -11,14 +11,14 @@ namespace AdventOfCode2023.Days
     {
         public Day01() 
         {
-            Console.WriteLine("    Part 1 Solution: {0}\n", Part1());
-            Console.WriteLine("    Part 2 Solution: {0}\n", Part2());
+            Console.WriteLine("    Part 1 Solution: {0}\n", Day01Part1());
+            Console.WriteLine("    Part 2 Solution: {0}\n", Day01Part2());
         }
 
-        private static string Part1()
+        private static string Day01Part1()
         {
             int runningTotal = 0;
-            StreamReader input = new StreamReader("..\\..\\..\\Inputs\\Day01_Part1.txt");
+            StreamReader input = new("..\\..\\..\\Inputs\\Day01_Part1.txt");
 
             string line = input.ReadLine()!;
 
@@ -60,7 +60,7 @@ namespace AdventOfCode2023.Days
                     }
                 }
 
-                string cvString = new string(cv);
+                string cvString = new(cv);
                 int calibrationValue = int.Parse(cvString);
                 runningTotal += calibrationValue;
 
@@ -70,7 +70,7 @@ namespace AdventOfCode2023.Days
             return runningTotal.ToString();
         }
 
-        private static string Part2() 
+        private static string Day01Part2() 
         {
             var spelledNums = new Dictionary<string, Char>()
             {
@@ -86,7 +86,7 @@ namespace AdventOfCode2023.Days
             };
 
             int runningTotal = 0;
-            StreamReader input = new StreamReader("..\\..\\..\\Inputs\\Day01_Part1.txt");
+            StreamReader input = new("..\\..\\..\\Inputs\\Day01_Part1.txt");
 
             string line = input.ReadLine()!;
 
@@ -118,7 +118,7 @@ namespace AdventOfCode2023.Days
                     }
                 }
 
-                char[] cv = { digits[0], digits[digits.Count - 1]};
+                char[] cv = { digits[0], digits[^1]};
 
                 string cvString = new(cv);
                 int calibrationValue = int.Parse(cvString);

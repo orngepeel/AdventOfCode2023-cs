@@ -18,7 +18,7 @@ namespace AdventOfCode2023.Days
         private static string Day01Part1()
         {
             int runningTotal = 0;
-            StreamReader input = new("..\\..\\..\\Inputs\\Day01_Part1.txt");
+            StreamReader input = new("..\\..\\..\\Inputs\\Day01.txt");
 
             string line = input.ReadLine()!;
 
@@ -86,7 +86,7 @@ namespace AdventOfCode2023.Days
             };
 
             int runningTotal = 0;
-            StreamReader input = new("..\\..\\..\\Inputs\\Day01_Part1.txt");
+            StreamReader input = new("..\\..\\..\\Inputs\\Day01.txt");
 
             string line = input.ReadLine()!;
 

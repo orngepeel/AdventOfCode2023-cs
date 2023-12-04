@@ -22,7 +22,7 @@ namespace AdventOfCode2023.Days
 
         private static string Day03Part1()
         {
-            StreamReader input = new("..\\..\\..\\Inputs\\Day03_Part1.txt");
+            StreamReader input = new("..\\..\\..\\Inputs\\Day03.txt");
 
 
             int runningTotal = 0;
@@ -103,7 +103,7 @@ namespace AdventOfCode2023.Days
 
         private static string Day03Part2()
         {
-            StreamReader input = new StreamReader("..\\..\\..\\Inputs\\Day03_Part1.txt");
+            StreamReader input = new StreamReader("..\\..\\..\\Inputs\\Day03.txt");
 
             int runningTotal = 0;
 

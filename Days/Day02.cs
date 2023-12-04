@@ -17,7 +17,7 @@ namespace AdventOfCode2023.Days
 
         private static string Day02Part1()
         {
-            StreamReader input = new("..\\..\\..\\Inputs\\Day02_Part1.txt");
+            StreamReader input = new("..\\..\\..\\Inputs\\Day02.txt");
             int runningTotal = 0;
             int maxRed = 12;
             int maxGreen = 13;
@@ -65,7 +65,7 @@ namespace AdventOfCode2023.Days
 
         private static string Day02Part2()
         {
-            StreamReader input = new StreamReader("..\\..\\..\\Inputs\\Day02_Part1.txt");
+            StreamReader input = new StreamReader("..\\..\\..\\Inputs\\Day02.txt");
             int runningTotal = 0;
             
             string line = input.ReadLine()!;

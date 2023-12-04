@@ -9,5 +9,7 @@ internal class Program
         _ = new Day01();
         Console.WriteLine("Day 02 Solutions:\n");
         _ = new Day02();
+        Console.WriteLine("Day 03 Solutions:\n");
+        _ = new Day03();
     }
 }

@@ -59,7 +59,7 @@ namespace AdventOfCode2023.Days
                 line = input.ReadLine()!;
             }
 
-            input.Close();
+            input.Close();  
             return runningTotal.ToString();
         }
 

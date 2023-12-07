@@ -12,7 +12,8 @@ namespace AdventOfCode2023.Days
         public Day05()
         {
             Console.WriteLine("    Part 1 Solution: {0}\n", Day05Part1());
-            Console.WriteLine("    Part 2 Solution: {0}\n", Day05Part2());
+            // commenting out part 2 due to performance :')
+            //Console.WriteLine("    Part 2 Solution: {0}\n", Day05Part2());
         }
 
         private static string Day05Part1()

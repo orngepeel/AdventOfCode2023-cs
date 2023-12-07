@@ -3,7 +3,7 @@ namespace AdventOfCode2023;
 
 internal class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
         Console.WriteLine("Day 01 Solutions:\n");
         _ = new Day01();
@@ -15,5 +15,7 @@ internal class Program
         _ = new Day04();
         Console.WriteLine("Day 05 Solutions:\n");
         _ = new Day05();
+        Console.WriteLine("Day 06 Solutions:\n");
+        _ = new Day06();
     }
 }

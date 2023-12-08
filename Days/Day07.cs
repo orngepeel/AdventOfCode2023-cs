@@ -264,7 +264,6 @@ namespace AdventOfCode2023.Days
 
             for (int i = 0; i < hands.Count; i++)
             {
-                Console.WriteLine(hands[i]);
                 totalScore += hands[i].Item3 * (i + 1);
             }
 
